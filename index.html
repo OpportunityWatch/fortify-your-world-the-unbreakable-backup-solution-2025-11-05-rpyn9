@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fortify Your World: The Unbreakable Backup Solution - End-to-End Encryption, Geo-Redundant Storage, and Compliance Ready backup services.">
+    <meta name="keywords" content="backup solution, data security, encryption, disaster recovery, compliance">
+    <meta name="author" content="Fortify Backup Solutions">
+    <meta name="theme-color" content="#3B82F6">
+    <title>Fortify Your World: The Unbreakable Backup Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #F0F9FF 0%, #F3E8FF 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+        }
+        
+        .button-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .button-primary:hover {
+            transform: scale(1.05);
+        }
+        
+        .feature-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-icon:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .faq-answer {
+            transition: all 0.3s ease;
+            max-height: 1000px;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            overflow: hidden;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+        }
+        
+        .mobile-menu {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-shield-alt text-white text-lg"></i>
+                </div>
+                <span class="text-2xl font-bold gradient-text">Fortify</span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Features</a>
+                <a href="#benefits" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">About</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">FAQ</a>
+                <a href="https://2link2.link/gbujust10bucks" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-lg hover:shadow-lg button-primary">Get Started</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button text-gray-700 hover:text-blue-600 transition-colors duration-300" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-white shadow-lg md:hidden">
+                <div class="px-4 py-4 space-y-3 flex flex-col">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium py-2">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium py-2">Benefits</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium py-2">About</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium py-2">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium py-2">FAQ</a>
+                    <a href="https://2link2.link/gbujust10bucks" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-lg hover:shadow-lg button-primary text-center">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 md:py-32 lg:py-40 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
+                        Fortify Your World: The <span class="gradient-text">Unbreakable</span> Backup Solution
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+                        From life's precious memories to critical business files – safeguard everything that matters with military-grade encryption, intelligent redundancy, and enterprise-level reliability. Your data deserves protection that never compromises.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://2link2.link/gbujust10bucks" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-xl button-primary text-center">
+                            Start Your Free Trial
+                        </a>
+                        <button class="border-2 border-blue-500 text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-colors duration-300">
+                            Watch Demo
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-6">
+                        <i class="fas fa-check-circle text-green-500 mr-2"></i>No credit card required • <i class="fas fa-check-circle text-green-500 mr-2"></i>14-day full access • <i class="fas fa-check-circle text-green-500 mr-2"></i>Cancel anytime
+                    </p>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-2xl blur-3xl opacity-30"></div>
+                        <div class="relative bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4 pb-4 border-b border-gray-200">
+                                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-lock text-blue-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Military-Grade Security</p>
+                                        <p class="text-sm text-gray-600">AES-256 Encryption</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4 pb-4 border-b border-gray-200">
+                                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-globe text-purple-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Global Redundancy</p>
+                                        <p class="text-sm text-gray-600">Multi-Region Backup</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-certificate text-green-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Compliance Certified</p>
+                                        <p class="text-sm text-gray-600">HIPAA, GDPR, SOC 2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Powerful Features Built for Protection
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Comprehensive backup capabilities designed to meet the most demanding security and compliance requirements
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: End-to-End Encryption -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center mb-6 feature-icon">
+                        <i class="fas fa-lock text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">End-to-End Encryption</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Every file you backup is protected with military-grade AES-256 encryption. Your data is encrypted before leaving your device and remains encrypted throughout transit and storage. Only you hold the encryption keys – we never have access to your unencrypted data.
+                    </p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>AES-256 Bit Encryption</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Client-Side Encryption</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Zero-Knowledge Architecture</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Geo-Redundant Storage -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mb-6 feature-icon">
+                        <i class="fas fa-globe text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Geo-Redundant Storage</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Your backups are automatically replicated across multiple geographic regions on separate continents. If one data center experiences an outage, your data remains accessible from redundant locations. Achieve 99.99% uptime with distributed infrastructure.
+                    </p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Multi-Region Replication</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Automatic Failover</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>99.99% Uptime SLA</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Compliance Ready -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center mb-6 feature-icon">
+                        <i class="fas fa-certificate text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Compliance Ready</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Meet regulatory requirements across industries with our certified compliance framework. We maintain certifications for HIPAA (healthcare), GDPR (EU data protection), SOC 2 Type II (security controls), and PCI DSS (payment data). Audit trails and compliance reports included.
+                    </p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>HIPAA Compliant</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>GDPR & CCPA Ready</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>SOC 2 Type II Certified</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Additional Features Row -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg flex items-center justify-center mb-6 feature-icon">
+                        <i class="fas fa-sync text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Continuous Backup</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Real-time synchronization captures every change instantly. Never lose a moment of work with continuous incremental backups that track modifications at the file level. Restore to any point in time within your retention period.
+                    </p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Real-Time Sync</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Point-in-Time Recovery</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Incremental Backups</li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-red-400 to-red-600 rounded-lg flex items-center justify-center mb-6 feature-icon">
+                        <i class="fas fa-undo-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">One-Click Restore</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Recover your entire system or individual files with a single click. Granular restore options allow you to select specific files, folders, or complete system snapshots. Get back to business in minutes, not hours.
+                    </p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Granular Restore</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Full System Recovery</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Cross-Platform Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Transformative Benefits for Your Peace of Mind
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Experience comprehensive protection that goes beyond simple file storage
+                </p>
+            </div>
+
+            <!-- Benefit 1: Ultimate Security Assurance -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6">Ultimate Security Assurance</h3>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        Sleep soundly knowing your most sensitive data is protected by the same encryption standards used by government agencies and Fortune 500 companies. Our zero-knowledge architecture ensures that even our own team cannot access your files.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-shield-alt text-blue-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Advanced Threat Detection</p>
+                                <p class="text-gray-600">AI-powered anomaly detection identifies unusual access patterns</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-shield-alt text-blue-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Ransomware Protection</p>
+                                <p class="text-gray-600">Automatic detection and isolation of infected files</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-shield-alt text-blue-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Continuous Monitoring</p>
+                                <p class="text-gray-600">24/7 security monitoring with instant threat alerts</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-12 border border-blue-100">
+                    <div class="space-y-6">
+                        <div class="bg-white rounded-lg p-6 shadow-sm border border-blue-100">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="font-bold text-gray-900">Encryption Status</span>
+                                <span class="text-green-600 font-bold">ACTIVE</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-500 h-2 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-6 shadow-sm border border-blue-100">
+                            <p class="text-sm text-gray-600 mb-2">Last Security Scan</p>
+                            <p class="text-lg font-bold text-gray-900">2 hours ago</p>
+                            <p class="text-sm text-green-600 mt-2"><i class="fas fa-check-circle mr-1"></i>All systems secure</p>
+                        </div>
+                        <div class="bg-white rounded-lg p-6 shadow-sm border border-blue-100">
+                            <p class="text-sm text-gray-600 mb-2">Data Protected</p>
+                            <p class="text-lg font-bold text-gray-900">2.4 TB</p>
+                            <p class="text-sm text-gray-600 mt-2">Across 3 geographic regions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 2: Disaster Preparedness -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-12 border border-purple-100 order-2 lg:order-1">
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-clock text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-900">Recovery Time: 15 mins</p>
+                                <p class="text-sm text-gray-600">Industry average: 8+ hours</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-percent text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-900">Recovery Rate: 99.98%</p>
+                                <p class="text-sm text-gray-600">Verified by independent audits</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-shield-alt text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-900">Zero Data Loss Guarantee</p>
+                                <p class="text-sm text-gray-600">Backed by our comprehensive SLA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6">Disaster Preparedness</h3>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        Be ready for any catastrophe. Hardware failure, natural disasters, cyber attacks, or accidental deletion – our disaster recovery system ensures you can restore operations within minutes. Test your recovery procedures with our sandbox environment.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-check text-purple-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Rapid Recovery</p>
+                                <p class="text-gray-600">Restore entire systems in under 15 minutes</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-check text-purple-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Business Continuity</p>
+                                <p class="text-gray-600">Minimize downtime with instant failover capabilities</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-check text-purple-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Disaster Testing</p>
+                                <p class="text-gray-600">Simulate recovery scenarios without affecting production</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Benefit 3: Regulatory Adherence -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6">Regulatory Adherence</h3>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        Navigate complex compliance landscapes with confidence. Our backup solution is built to meet the strictest regulatory requirements across healthcare, finance, government, and enterprise sectors. Automated compliance reporting and audit trails included.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-certificate text-green-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Complete Audit Trails</p>
+                                <p class="text-gray-600">Immutable logs of all access and modifications</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-certificate text-green-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Data Residency Control</p>
+                                <p class="text-gray-600">Choose where your data is stored geographically</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-certificate text-green-600"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-gray-900">Automated Compliance Reports</p>
+                                <p class="text-gray-600">Generate compliance documentation on demand</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-12 border border-green-100">
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3 pb-4 border-b border-green-200">
+                            <i class="fas fa-check-circle text-green-600 text-2xl"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">HIPAA</p>
+                                <p class="text-sm text-gray-600">Healthcare Data Protection</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3 pb-4 border-b border-green-200">
+                            <i class="fas fa-check-circle text-green-600 text-2xl"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">GDPR</p>
+                                <p class="text-sm text-gray-600">EU Data Protection Regulation</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3 pb-4 border-b border-green-200">
+                            <i class="fas fa-check-circle text-green-600 text-2xl"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">SOC 2 Type II</p>
+                                <p class="text-sm text-gray-600">Security & Availability Standards</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3 pb-4 border-b border-green-200">
+                            <i class="fas fa-check-circle text-green-600 text-2xl"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">PCI DSS</p>
+                                <p class="text-sm text-gray-600">Payment Card Industry Standards</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle text-green-600 text-2xl"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">CCPA</p>
+                                <p class="text-sm text-gray-600">California Consumer Privacy Act</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="relative py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1633356122544-f134ef2944f0?w=1200&h=400&fit=crop'); opacity: 0.15;"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-90"></div>
+        
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
+                Stop Worrying About Data Loss
+            </h2>
+            <p class="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed max-w-2xl mx-auto">
+                Join thousands of businesses and individuals who trust Fortify with their most critical data. Get started today with our 14-day free trial – no credit card required.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://2link2.link/gbujust10bucks" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:shadow-xl button-primary text-center">
+                    Start Free Trial Now
+                </a>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:bg-opacity-10 transition-all duration-300">
+                    Schedule Demo
+                </button>
+            </div>
+            <p class="text-blue-100 text-sm mt-6">
+                <i class="fas fa-lock mr-2"></i>Your data is secure with us • <i class="fas fa-credit-card mr-2"></i>No payment info required
+            </p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    About Fortify
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Our story and commitment to data protection
+                </p>
+            </div>
+
+            <div class="space-y-8">
+                <div class="bg-white rounded-xl shadow-md p-8 md:p-12 border border-gray-100">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        Fortify was founded in 2018 by a team of cybersecurity experts and data engineers who witnessed firsthand the devastating impact of data loss on businesses and individuals. After a major financial services company lost critical data due to inadequate backup systems, our founders realized the market needed a backup solution that prioritized security, reliability, and ease of use above all else. What started as a passion project has grown into a trusted platform protecting over 500,000 users worldwide, handling more than 50 petabytes of critical data across multiple continents.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Today, Fortify operates with a singular mission: to ensure that no one ever loses their important data again. We believe that backup should be invisible, automatic, and absolutely reliable. Our team of 200+ engineers, security specialists, and customer success professionals work around the clock to maintain the highest standards of data protection, compliance, and service reliability. We invest heavily in research and development, staying at the forefront of encryption technology, disaster recovery systems, and compliance frameworks to provide our customers with the most advanced backup solution available.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center border border-gray-100">
+                        <div class="text-4xl font-bold gradient-text mb-2">500K+</div>
+                        <p class="text-gray-700 font-semibold">Active Users</p>
+                        <p class="text-gray-600 text-sm mt-2">Trusted worldwide</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center border border-gray-100">
+                        <div class="text-4xl font-bold gradient-text mb-2">50PB+</div>
+                        <p class="text-gray-700 font-semibold">Data Protected</p>
+                        <p class="text-gray-600 text-sm mt-2">Across 6 continents</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center border border-gray-100">
+                        <div class="text-4xl font-bold gradient-text mb-2">99.99%</div>
+                        <p class="text-gray-700 font-semibold">Uptime</p>
+                        <p class="text-gray-600 text-sm mt-2">Guaranteed SLA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Trusted by Thousands
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    See what our customers have to say about Fortify
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "Fortify saved our entire business during the ransomware attack. We recovered all our data within 15 minutes. This is absolutely essential software."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-gray-900">Michael Chen</p>
+                        <p class="text-sm text-gray-600">CEO, TechStartup Inc.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "The encryption and compliance features are unmatched. Our healthcare practice passed all audits effortlessly thanks to Fortify's automated compliance reporting."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-gray-900">Dr. Sarah Williams</p>
+                        <p class="text-sm text-gray-600">Medical Director, Wellness Clinic</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "As a freelancer, peace of mind is priceless. Fortify's continuous backup means I never worry about losing my client work. The interface is incredibly intuitive."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-gray-900">James Rodriguez</p>
+                        <p class="text-sm text-gray-600">Freelance Designer</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 border border-gray-100 hover:shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "Enterprise-grade security without the enterprise price tag. Fortify offers the best value in the backup market. Our IT team loves the detailed reporting."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-gray-900">Amanda Foster</p>
+                        <p class="text-sm text-gray-600">IT Director, Manufacturing Corp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Everything you need to know about Fortify
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="faq-question cursor-pointer px-8 py-6 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-gray-900">How does Fortify protect my data?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-blue-600 transition-transform duration-300"></i>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-6 bg-gray-50 border-t border-gray-100">
+                        <p class="text-gray-700 leading-relaxed">
+                            Fortify employs military-grade AES-256 encryption to protect your data both in transit and at rest. We use a zero-knowledge architecture, which means your data is encrypted on your device before it ever reaches our servers. Even our own team cannot access your unencrypted files. Additionally, all backups are replicated across multiple geographic regions to ensure data redundancy and protection against regional outages. Your encryption keys are managed through our secure key management system with industry-leading security practices.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="faq-question cursor-pointer px-8 py-6 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-gray-900">What is your data recovery guarantee?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-blue-600 transition-transform duration-300"></i>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-6 bg-gray-50 border-t border-gray-100">
+                        <p class="text-gray-700 leading-relaxed">
+                            We guarantee a 99.98% recovery rate backed by our comprehensive Service Level Agreement (SLA). In the unlikely event of data loss due to our infrastructure failure, we provide full compensation as outlined in our SLA terms. Our redundant backup systems across multiple data centers ensure that your data is always recoverable. We've successfully recovered data for over 99,999 customers without a single permanent loss incident. You can test our recovery capabilities anytime using our sandbox environment to verify that your data is secure and recoverable.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="faq-question cursor-pointer px-8 py-6 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-gray-900">Is Fortify compliant with GDPR and HIPAA?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-blue-600 transition-transform duration-300"></i>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-6 bg-gray-50 border-t border-gray-100">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes, Fortify is fully compliant with GDPR, HIPAA, SOC 2 Type II, PCI DSS, and CCPA regulations. We maintain certifications for all major compliance frameworks and undergo regular third-party audits to ensure ongoing compliance. Our platform includes features specifically designed for regulatory adherence, such as granular data residency controls, immutable audit trails, automated compliance reporting, and data retention policies. We provide detailed compliance documentation and can generate audit reports on demand for your regulatory submissions. Our legal and compliance teams continuously monitor regulatory changes to ensure we remain compliant with evolving requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="faq-question cursor-pointer px-8 py-6 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-gray-900">How long does it take to restore my data?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-blue-600 transition-transform duration-300"></i>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-6 bg-gray-50 border-t border-gray-100">
+                        <p class="text-gray-700 leading-relaxed">
+                            Most data restorations complete within 15 minutes, significantly faster than the industry average of 8+ hours. The exact time depends on the amount of data being restored and your internet connection speed. You can restore individual files, specific folders, or your entire system with a single click. Our granular restore feature allows you to select exactly what you need, minimizing recovery time. For critical systems, we offer expedited recovery options and can prioritize your restoration request. We also provide point-in-time recovery, allowing you to restore your system to any specific moment within your retention period.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="faq-question cursor-pointer px-8 py-6 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between">
+                        <h3 class="text-lg font-bold text-gray-900">What happens if I need to cancel my subscription?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-blue-600 transition-transform duration-300"></i>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-6 bg-gray-50 border-t border-gray-100">
+                        <p class="text-gray-700 leading-relaxed">
+                            You can cancel your subscription anytime with no penalties or long-term contracts. If you cancel, you'll have 30 days to download or restore all your backed-up data before it's permanently removed from our servers. We offer a full refund within 30 days of purchase if you're not satisfied with our service. During your trial period, you can cancel at any time with absolutely no charge. We believe in transparent, customer-friendly policies without hidden fees or forced commitments. Your data always remains yours, and you have complete control over when and how you access it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1: About -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-shield-alt text-white text-lg"></i>
+                        </div>
+                        <span class="text-2xl font-bold text-white">Fortify</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Protecting your data with military-grade encryption and enterprise-level reliability.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-gray-300"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-gray-300"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-pink-600 transition-colors duration-300">
+                            <i class="fab fa-instagram text-gray-300"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                            <i class="fab fa-linkedin-in text-gray-300"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Product -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Product</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Pricing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Security</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Integrations</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Company -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Press</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Legal -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">DPA</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Status Page</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 mb-4 md:mb-0">
+                        &copy; 2025 Fortify Backup Solutions. All rights reserved.
+                    </p>
+                    <div class="flex items-center space-x-2 text-gray-400">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <a href="mailto:rwcampbell2@gmail.com" class="hover:text-white transition-colors duration-300">rwcampbell2@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
